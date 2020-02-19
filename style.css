@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Play', sans-serif;
+            font-weight: bold;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            padding: 5px;
+            position: relative;
+            overflow: hidden;
+        }
+        .box-container {
+                justify-self: center;
+                align-self: center;    
+                border: 2px solid black;
+                height: 85vh;
+                width: 150vh;
+                background-color: #fff;
+                margin: 5px;
+                position: relative;
+                top: 20px;
+        }
+        .box {
+            border: 1px solid #000;
+        }
+
+        .clear {
+            padding: 10px;
+            width: 70px;
+            background-color: royalblue;
+            border-color: white;
+            outline: none;
+            margin: 5px;
+            justify-self: center;
+            position: relative;
+            right: 100px;
+        }
+
+        .box:hover {
+            transition: background-color 2s ease-in;
+            -webkit-transition: background-color 2s ease-in;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;    
+        }
+
+        .rgb {
+            padding: 10px;
+            width: 100px;
+            position: relative;
+            right: 30px;
+            background-color: royalblue;
+            border-color: white;
+            outline: none;
+        }
+        
+        button:hover {
+            cursor: pointer;
+        }
+
+        label, input  {
+            color: green;
+            width: 20%;
+        }
+
+        label {
+            position: relative;
+            right: 80px;
+            bottom: 15px;
+        }
+
+        #favcolor {
+            margin-top: 10px;
+            height: 35px;
+            position: relative;
+            top: 10px;
+            width: 70px;
+        }
