@@ -53,7 +53,7 @@
 
 
     function userPrompt() {
-        let userInput = prompt("Desired number of square boxes? Not more than 65");
+        let userInput = prompt("Desired number of square boxes? Not more than 64");
         return userInput
     }
 
